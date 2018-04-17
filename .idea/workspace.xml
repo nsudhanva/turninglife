@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1593dee4-e2fa-4b78-b015-da81116db1e7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/style.scss" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/style.scss" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/homes.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/homes.scss" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -19,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1431">
-              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="337">
+              <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
               <folding>
                 <element signature="e#9036#9041#0#HTML" expanded="true" />
                 <element signature="e#12779#12784#0#HTML" expanded="true" />
@@ -33,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="11536" column="27" lean-forward="true" selection-start-line="11536" selection-start-column="27" selection-end-line="11536" selection-end-column="27" />
+            <state relative-caret-position="287">
+              <caret line="11537" column="22" lean-forward="false" selection-start-line="11537" selection-start-column="22" selection-end-line="11537" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -83,8 +85,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <file leaf-file-name="application.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
@@ -126,11 +128,11 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/app/views/homes/index.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/vendor/assets/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/vendor/assets/stylesheets/style.scss" />
+        <option value="$PROJECT_DIR$/app/views/homes/index.html.erb" />
       </list>
     </option>
   </component>
@@ -185,7 +187,7 @@
               <item name="turninglife" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="turninglife" type="b2602c69:ProjectViewProjectNode" />
@@ -357,12 +359,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523947611737</updated>
-      <workItem from="1523947616397" duration="7299000" />
+      <workItem from="1523947616397" duration="7530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7299000" />
+    <option name="totallyTimeSpent" value="7530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="1618" height="868" extended-state="6" />
@@ -510,7 +512,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
@@ -518,23 +520,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="11537" column="22" lean-forward="false" selection-start-line="11537" selection-start-column="22" selection-end-line="11537" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1431">
-          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="337">
+          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
           <folding>
             <element signature="e#9036#9041#0#HTML" expanded="true" />
             <element signature="e#12779#12784#0#HTML" expanded="true" />
             <element signature="e#39018#39024#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="11536" column="27" lean-forward="true" selection-start-line="11536" selection-start-column="27" selection-end-line="11536" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
