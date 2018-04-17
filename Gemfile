@@ -40,9 +40,9 @@ gem 'ransack'
 gem 'chartkick'
 gem 'httparty'
 gem 'sendgrid'
-gem "mini_magick"
+gem 'mini_magick'
 gem 'carrierwave'
-gem "nested_form"
+gem 'nested_form'
 gem 'devise'
 
 group :development, :test do
