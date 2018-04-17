@@ -707,7 +707,8 @@ ol li::before {
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
-	background: url("../images/icons/search_icon.png") no-repeat center center;
+	//background: url("../images/icons/search_icon.png") no-repeat center center;
+	background: image-url("icons/search_icon.png") no-repeat center center;
 	width: 18px;
 	height: 18px;
 	-webkit-transition: 0.5s all;
@@ -2480,6 +2481,7 @@ ol li::before {
 
 .parallax-01 {
 	background-image: url("../images/shortcodes/parallax_img_01.jpg");
+	background-image: image-url("logo.png");
 	background-size: cover;
 	padding: 82px 0 68px;
 	position: relative;
