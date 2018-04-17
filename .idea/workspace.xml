@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1593dee4-e2fa-4b78-b015-da81116db1e7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change beforePath="$PROJECT_DIR$/app/views/homes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/homes/index.html.erb" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery-2.2.4.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery-ui.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.countdown.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.flexslider.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.imagesloaded.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.isotope.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.leanModal.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.mediaelement-and-player.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.nivo.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.owl.carousel.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.parallax.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.prettyPhoto.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.progress.circle.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.sticky.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.superfish.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.swipebox.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.waypoint.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/javascripts/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/stylesheets/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/stylesheets/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/stylesheets/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/assets/javascripts/main.js" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -46,13 +22,23 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
-              <caret line="1018" column="30" lean-forward="false" selection-start-line="1018" selection-start-column="30" selection-end-line="1018" selection-end-column="30" />
+            <state relative-caret-position="15606">
+              <caret line="588" column="30" lean-forward="false" selection-start-line="588" selection-start-column="30" selection-end-line="588" selection-end-column="30" />
               <folding>
                 <element signature="e#12040#12045#0#HTML" expanded="true" />
                 <element signature="e#15783#15788#0#HTML" expanded="true" />
                 <element signature="e#41936#41942#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="313" column="25" lean-forward="true" selection-start-line="313" selection-start-column="25" selection-end-line="313" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="459">
+              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -99,6 +85,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>google</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -109,6 +100,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/main.js" />
       </list>
     </option>
   </component>
@@ -325,12 +317,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523947611737</updated>
-      <workItem from="1523947616397" duration="2404000" />
+      <workItem from="1523947616397" duration="2657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2404000" />
+    <option name="totallyTimeSpent" value="2657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="1618" height="868" extended-state="6" />
@@ -399,18 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="1018" column="30" lean-forward="false" selection-start-line="1018" selection-start-column="30" selection-end-line="1018" selection-end-column="30" />
-          <folding>
-            <element signature="e#12040#12045#0#HTML" expanded="true" />
-            <element signature="e#15783#15788#0#HTML" expanded="true" />
-            <element signature="e#41936#41942#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/homes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -437,8 +417,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="459">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15606">
+          <caret line="588" column="30" lean-forward="false" selection-start-line="588" selection-start-column="30" selection-end-line="588" selection-end-column="30" />
+          <folding>
+            <element signature="e#12040#12045#0#HTML" expanded="true" />
+            <element signature="e#15783#15788#0#HTML" expanded="true" />
+            <element signature="e#41936#41942#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="313" column="25" lean-forward="true" selection-start-line="313" selection-start-column="25" selection-end-line="313" selection-end-column="25" />
           <folding />
         </state>
       </provider>
