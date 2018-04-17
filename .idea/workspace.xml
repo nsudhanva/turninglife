@@ -2,29 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1593dee4-e2fa-4b78-b015-da81116db1e7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery-2.2.4.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery-ui.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.countdown.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.flexslider.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.imagesloaded.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.isotope.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.leanModal.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.mediaelement-and-player.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.nivo.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.owl.carousel.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.parallax.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.prettyPhoto.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.progress.circle.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.sticky.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.superfish.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.swipebox.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.waypoint.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/views/homes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/homes/index.html.erb" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery-2.2.4.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery-ui.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.countdown.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.flexslider.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.imagesloaded.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.isotope.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.leanModal.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.mediaelement-and-player.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.nivo.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.owl.carousel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.parallax.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.prettyPhoto.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.progress.circle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.sticky.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.superfish.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.swipebox.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/jquery.waypoint.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/javascripts/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/stylesheets/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/stylesheets/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/stylesheets/style.css" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -41,25 +43,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="856">
+              <caret line="1018" column="30" lean-forward="false" selection-start-line="1018" selection-start-column="30" selection-end-line="1018" selection-end-column="30" />
               <folding>
-                <element signature="e#11950#11955#0#HTML" expanded="true" />
-                <element signature="e#15693#15698#0#HTML" expanded="true" />
-                <element signature="e#41846#41852#0#HTML" expanded="true" />
+                <element signature="e#12040#12045#0#HTML" expanded="true" />
+                <element signature="e#15783#15788#0#HTML" expanded="true" />
+                <element signature="e#41936#41942#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homes_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/homes_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            <state relative-caret-position="363">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -68,8 +90,8 @@
       <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="243">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -84,6 +106,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/views/homes/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       </list>
@@ -145,19 +168,31 @@
             <path>
               <item name="turninglife" type="b2602c69:ProjectViewProjectNode" />
               <item name="turninglife" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turninglife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turninglife" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turninglife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turninglife" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="turninglife" type="b2602c69:ProjectViewProjectNode" />
               <item name="turninglife" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="turninglife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="turninglife" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="turninglife" type="b2602c69:ProjectViewProjectNode" />
-              <item name="turninglife" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,18 +325,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523947611737</updated>
-      <workItem from="1523947616397" duration="1437000" />
+      <workItem from="1523947616397" duration="2404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1437000" />
+    <option name="totallyTimeSpent" value="2404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="1618" height="868" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -364,31 +399,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        <state relative-caret-position="856">
+          <caret line="1018" column="30" lean-forward="false" selection-start-line="1018" selection-start-column="30" selection-end-line="1018" selection-end-column="30" />
+          <folding>
+            <element signature="e#12040#12045#0#HTML" expanded="true" />
+            <element signature="e#15783#15788#0#HTML" expanded="true" />
+            <element signature="e#41936#41942#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/homes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="243">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#11950#11955#0#HTML" expanded="true" />
-            <element signature="e#15693#15698#0#HTML" expanded="true" />
-            <element signature="e#41846#41852#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="363">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

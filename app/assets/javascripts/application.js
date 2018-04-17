@@ -11,11 +11,23 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require jquery-2.2.4
+//= require jquery-2.2.4.min
 //= require jquery-ui.min
-//= require jquery.sticky.min
+//= require jquery.countdown.min
+//= require jquery.flexslider.min
+//= require jquery.imagesloaded.min
+//= require jquery.isotope.min
+//= require jquery.leanModal.min
+//= require jquery.mediaelement-and-player.min
+//= require jquery.nivo.min
+//= require jquery.parallax.min
+//= require jquery.prettyPhoto.min
+//= require jquery.progress.circle.min
 //= require jquery.superfish.min
+//= require jquery.sticky.min
+//= require jquery.swipebox.min
 //= require jquery.waypoint.min
+//= require jquery.owl.carousel.min
 //= require main
 //= require turbolinks
 //= require_tree .
