@@ -11,5 +11,11 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery-2.2.4
+//= require jquery-ui.min
+//= require jquery.sticky.min
+//= require jquery.superfish.min
+//= require jquery.waypoint.min
+//= require main
 //= require turbolinks
 //= require_tree .
