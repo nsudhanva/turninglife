@@ -43,12 +43,12 @@
 
   <div class="field">
     <%= form.label :therapist_id %>
-    <%= form.number_field :therapist_id, id: :appointment_therapist_id %>
+    <%= form.collection_select :therapist_id, Therapist.all, :id, :name %>
   </div>
 
   <div class="field">
     <%= form.label :treatment_id %>
-    <%= form.number_field :treatment_id, id: :appointment_treatment_id %>
+    <%= form.collection_select :therapist_id, Treatment.all, :id, :name %>
   </div>
 
   <div class="actions">

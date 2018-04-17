@@ -1,5 +1,5 @@
 class Treatment < ApplicationRecord
-  belongs_to :appointment
+  has_many :appointments
   has_many :category_treatments
-  has_many :treatments, through: :category_treatments
+  has_many :categories, through: :category_treatments
 end
