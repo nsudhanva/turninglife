@@ -13,20 +13,20 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="favicon.ico" />
 
-  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <!--<link rel="manifest" href="/manifest.json">-->
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
@@ -71,7 +71,8 @@
         <div class="row">
           <div class="col-sm-4 col-md-4 col-lg-4 text-xs-center">
             <a href="./" class="logo">
-              <img src="img/logo.png" alt="">
+              <!--<img src="/assets/images/logo.png" alt="">-->
+              <% image_tag("logo.png") %>
             </a>
           </div>
           <div class="col-sm-8 col-md-8 col-lg-8 text-xs-center text-right">
@@ -94,70 +95,6 @@
                 <div class="icon-right"></div>
               </div>
               <div class="header-box-03">
-                <div class="shopping-cart">
-                  <a href="#" class="shopping-btn">
-                    Shopping cart
-                    <p class="shopping-info">2</p>
-                  </a>
-                  <div class="shopping-cart__dropdown">
-                    <ul class="shopping-cart__list">
-                      <li>
-                        <table class="shopping-cart__table">
-                          <tr>
-                            <td>
-                              <a class="shopping-cart__close" href="#">Close</a>
-                            </td>
-                            <td>
-                              <figure class="shopping-cart__img">
-                                <a href="#">
-                                  <img src="img/shop/shopping_cart/shopping_cart_img_01.jpg" alt="">
-                                </a>
-                              </figure>
-                            </td>
-                            <td>
-                              <h3 class="shopping-cart__title">
-                                <a href="#">Intuitions</a>
-                              </h3>
-                              <p class="shopping-cart__text">Dr. Sandra Miller</p>
-                              <p class="shopping-cart__price">
-                                <span>1 x</span>$ 100.00</p>
-                            </td>
-                          </tr>
-                        </table>
-                      </li>
-                      <li>
-                        <table class="shopping-cart__table">
-                          <tr>
-                            <td>
-                              <a class="shopping-cart__close" href="#">Close</a>
-                            </td>
-                            <td>
-                              <figure class="shopping-cart__img">
-                                <a href="#">
-                                  <img src="img/shop/shopping_cart/shopping_cart_img_02.jpg" alt="">
-                                </a>
-                              </figure>
-                            </td>
-                            <td>
-                              <h3 class="shopping-cart__title">
-                                <a href="#">Happines</a>
-                              </h3>
-                              <p class="shopping-cart__text">Dr. Sandra Miller</p>
-                              <p class="shopping-cart__price">
-                                <span>1 x</span>$ 100.00</p>
-                            </td>
-                          </tr>
-                        </table>
-                      </li>
-                    </ul>
-                    <p class="shopping-cart__subtotal">
-                      <span>Subtotal:</span> $ 220.00</p>
-                    <div class="shopping-cart__btn">
-                      <a href="#" class="shopping-cart__btn-01">View cart</a>
-                      <a href="#" class="shopping-cart__btn-02">Checkout</a>
-                    </div>
-                  </div>
-                </div>
                 <div class="search-box">
                   <a class="search-btn" href="#">Search</a>
                   <div class="search-box__dropdown">
@@ -395,7 +332,7 @@
                 <div class="owl-treatments">
                   <figure class="owl-treatments__img">
                     <a href="single_service.html">
-                      <img src="img/about_us/owl/owl_img_01.jpg" alt="">
+                      <!--<img src="/about_us/owl/owl_img_01.jpg" alt="">-->
                     </a>
                   </figure>
                   <h4 class="owl-treatments__title">
@@ -411,7 +348,7 @@
                 <div class="owl-treatments">
                   <figure class="owl-treatments__img">
                     <a href="single_service.html">
-                      <img src="img/about_us/owl/owl_img_02.jpg" alt="">
+                      <!--<img src="/about_us/owl/owl_img_02.jpg" alt="">-->
                     </a>
                   </figure>
                   <h4 class="owl-treatments__title">
@@ -427,7 +364,7 @@
                 <div class="owl-treatments">
                   <figure class="owl-treatments__img">
                     <a href="single_service.html">
-                      <img src="img/about_us/owl/owl_img_03.jpg" alt="">
+                      <!--<img src="/about_us/owl/owl_img_03.jpg" alt="">-->
                     </a>
                   </figure>
                   <h4 class="owl-treatments__title">
@@ -443,7 +380,7 @@
                 <div class="owl-treatments">
                   <figure class="owl-treatments__img">
                     <a href="single_service.html">
-                      <img src="img/about_us/owl/owl_img_04.jpg" alt="">
+                      <!--<img src="/about_us/owl/owl_img_04.jpg" alt="">-->
                     </a>
                   </figure>
                   <h4 class="owl-treatments__title">
@@ -459,7 +396,7 @@
                 <div class="owl-treatments">
                   <figure class="owl-treatments__img">
                     <a href="single_service.html">
-                      <img src="img/about_us/owl/owl_img_05.jpg" alt="">
+                      <!--<img src="/about_us/owl/owl_img_05.jpg" alt="">-->
                     </a>
                   </figure>
                   <h4 class="owl-treatments__title">
@@ -475,7 +412,7 @@
                 <div class="owl-treatments">
                   <figure class="owl-treatments__img">
                     <a href="single_service.html">
-                      <img src="img/about_us/owl/owl_img_06.jpg" alt="">
+                      <!--<img src="/about_us/owl/owl_img_06.jpg" alt="">-->
                     </a>
                   </figure>
                   <h4 class="owl-treatments__title">
@@ -491,7 +428,7 @@
                 <div class="owl-treatments">
                   <figure class="owl-treatments__img">
                     <a href="single_service.html">
-                      <img src="img/about_us/owl/owl_img_07.jpg" alt="">
+                      <!--<img src="img/about_us/owl/owl_img_07.jpg" alt="">-->
                     </a>
                   </figure>
                   <h4 class="owl-treatments__title">
@@ -517,7 +454,7 @@
                 <div class="counter-content">
                   <div class="stat-count-wrapper">
                     <figure class="stat-count-icon">
-                      <img src="img/icons/count_icon_01.png" alt="">
+                      <!--<img src="img/icons/count_icon_01.png" alt="">-->
                     </figure>
                     <p class="stat-count stat-count__dec" data-count="30">0</p>
                     <p class="counter-title">Years of Experience</p>
@@ -533,7 +470,7 @@
                 <div class="counter-content">
                   <div class="stat-count-wrapper">
                     <figure class="stat-count-icon">
-                      <img src="img/icons/count_icon_02.png" alt="">
+                      <!--<img src="/icons/count_icon_02.png" alt="">-->
                     </figure>
                     <p class="stat-count" data-count="154">0</p>
                     <p class="counter-title">In-House Doctors</p>
@@ -549,7 +486,7 @@
                 <div class="counter-content">
                   <div class="stat-count-wrapper">
                     <figure class="stat-count-icon">
-                      <img src="img/icons/count_icon_03.png" alt="">
+                      <!--<img src="/icons/count_icon_03.png" alt="">-->
                     </figure>
                     <p class="stat-count stat-count__dec" data-count="45">0</p>
                     <p class="counter-title">Medical Branches</p>
@@ -565,7 +502,7 @@
                 <div class="counter-content">
                   <div class="stat-count-wrapper">
                     <figure class="stat-count-icon">
-                      <img src="img/icons/count_icon_04.png" alt="">
+                      <!--<img src="/icons/count_icon_04.png" alt="">-->
                     </figure>
                     <p class="stat-count" data-count="1510">0</p>
                     <p class="counter-title">Successesful Therapy</p>
@@ -593,7 +530,7 @@
           </div>
           <div class="col-sm-6 col-md-6 col-lg-6">
             <div class="counselling-img-01">
-              <img src="img/counselling/counselling_01.png" alt="">
+              <!--<img src="/counselling/counselling_01.png" alt="">-->
             </div>
           </div>
         </div>
@@ -621,7 +558,7 @@
           <div class="text-xs-center col-sm-4 col-md-4 col-lg-4">
             <div class="team-item-01">
               <figure class="team-item-01__img">
-                <img src="img/shortcodes/team/team_01.jpg" alt="">
+                <!--<img src="/shortcodes/team/team_01.jpg" alt="">-->
               </figure>
               <div class="team-item-01__content">
                 <h3 class="team-item-01__title">
@@ -656,7 +593,7 @@
           <div class="text-xs-center col-sm-4 col-md-4 col-lg-4">
             <div class="team-item-01">
               <figure class="team-item-01__img">
-                <img src="img/shortcodes/team/team_02.jpg" alt="">
+                <!--<img src="/shortcodes/team/team_02.jpg" alt="">-->
               </figure>
               <div class="team-item-01__content">
                 <h3 class="team-item-01__title">
@@ -691,7 +628,7 @@
           <div class="text-xs-center col-sm-4 col-md-4 col-lg-4">
             <div class="team-item-01">
               <figure class="team-item-01__img">
-                <img src="img/shortcodes/team/team_03.jpg" alt="">
+                <!--<img src="/shortcodes/team/team_03.jpg" alt="">-->
               </figure>
               <div class="team-item-01__content">
                 <h3 class="team-item-01__title">
@@ -745,7 +682,7 @@
                 </div>
                 <div class="owl-theme-01__item-user">
                   <figure class="owl-theme-01__item-user-img">
-                    <img src="img/shortcodes/users/user_01.jpg" alt="">
+                    <!--<img src="/shortcodes/users/user_01.jpg" alt="">-->
                   </figure>
                   <h3 class="owl-theme-01__item-user-name">John Nickelson</h3>
                   <p class="owl-theme-01__item-user-subtitle">Founder IT Hub</p>
@@ -757,7 +694,7 @@
                 </div>
                 <div class="owl-theme-01__item-user">
                   <figure class="owl-theme-01__item-user-img">
-                    <img src="img/shortcodes/users/user_02.jpg" alt="">
+                    <!--<img src="/shortcodes/users/user_02.jpg" alt="">-->
                   </figure>
                   <h3 class="owl-theme-01__item-user-name">Samuel Williams</h3>
                   <p class="owl-theme-01__item-user-subtitle">Founder IT Hub</p>
@@ -769,7 +706,7 @@
                 </div>
                 <div class="owl-theme-01__item-user">
                   <figure class="owl-theme-01__item-user-img">
-                    <img src="img/shortcodes/users/user_03.jpg" alt="">
+                    <!--<img src="/shortcodes/users/user_03.jpg" alt="">-->
                   </figure>
                   <h3 class="owl-theme-01__item-user-name">Karren Johnson</h3>
                   <p class="owl-theme-01__item-user-subtitle">Founder IT Hub</p>
@@ -795,7 +732,7 @@
             <div class="featured-post-01">
               <figure class="featured-post-01__img">
                 <a href="blog_post_right_sidebar.html">
-                  <img src="img/shortcodes/featured_post/featured_post_01.jpg" alt="">
+                  <!--<img src="/shortcodes/featured_post/featured_post_01.jpg" alt="">-->
                 </a>
               </figure>
               <div class="featured-post-01__content">
@@ -819,7 +756,7 @@
             <div class="featured-post-01">
               <figure class="featured-post-01__img">
                 <a href="blog_post_right_sidebar.html">
-                  <img src="img/shortcodes/featured_post/featured_post_02.jpg" alt="">
+                  <!--<img src="/shortcodes/featured_post/featured_post_02.jpg" alt="">-->
                 </a>
               </figure>
               <div class="featured-post-01__content">
@@ -843,7 +780,7 @@
             <div class="featured-post-01">
               <figure class="featured-post-01__img">
                 <a href="blog_post_right_sidebar.html">
-                  <img src="img/shortcodes/featured_post/featured_post_03.jpg" alt="">
+                  <!--<img src="/shortcodes/featured_post/featured_post_03.jpg" alt="">-->
                 </a>
               </figure>
               <div class="featured-post-01__content">
@@ -898,7 +835,7 @@
         <div class="row">
           <div class="col-sm-3 col-md-3 col-lg-3">
             <a href="./" class="footer-logo">
-              <img src="img/logo.png" alt="">
+              <% image_tag("logo.png") %>
             </a>
             <div class="widget widget-text">
               <p>Our clinic largest private mental health partnership, with a carefully selected nationwide team of Psychiatrists.</p>
