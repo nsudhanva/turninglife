@@ -107,120 +107,31 @@
               </div>
               <ul class="main-nav__list">
                 <li class="active">
-                  <a href="index.html">Home</a>
-                  <ul>
-                    <li>
-                      <a href="index.html">Home 1</a>
-                    </li>
-                    <li>
-                      <a href="index_02.html">Home 2</a>
-                    </li>
-                  </ul>
+                  
                 </li>
                 <li>
-                  <a href="about_us.html">About</a>
-                  <ul>
-                    <li>
-                      <a href="about_me.html">About me</a>
-                    </li>
-                    <li>
-                      <a href="about_us.html">About us</a>
-                    </li>
-                  </ul>
+                  <%= link_to 'Home', root_path %>
                 </li>
                 <li>
-                  <a href="services.html">Services</a>
-                  <ul>
-                    <li>
-                      <a href="services.html">Services page</a>
-                    </li>
-                    <li>
-                      <a href="single_service.html">Single service</a>
-                    </li>
-                  </ul>
+                  <%= link_to 'Services', homes_services_path %>             
                 </li>
                 <li>
-                  <a href="#">Pages</a>
-                  <ul>
-                    <li>
-                      <a href="counselling.html">Counselling</a>
-                    </li>
-                    <li>
-                      <a href="appointment.html">Appointment</a>
-                    </li>
-                    <li>
-                      <a href="faq.html">FAQ</a>
-                    </li>
-                    <li>
-                      <a href="team.html">Team</a>
-                    </li>
-                    <li>
-                      <a href="team_member.html">Team member</a>
-                    </li>
-                    <li>
-                      <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                      <a href="gallery_item.html">Gallery item</a>
-                    </li>
-                    <li>
-                      <a href="shortcodes.html">Shortcodes</a>
-                    </li>
-                    <li>
-                      <a href="typography.html">Typography</a>
-                    </li>
-                    <li>
-                      <a href="coming_soon.html">Coming soon</a>
-                    </li>
-                    <li>
-                      <a href="404.html">404</a>
-                    </li>
-                  </ul>
+                  <%= link_to 'Counselling', homes_counselling_path %>
                 </li>
                 <li>
-                  <a href="shop_listing.html">Shop</a>
-                  <ul>
-                    <li>
-                      <a href="shop_listing.html">Shop listing</a>
-                    </li>
-                    <li>
-                      <a href="shop_item.html">Shop item</a>
-                    </li>
-                    <li>
-                      <a href="shopping_cart.html">Shopping cart</a>
-                    </li>
-                  </ul>
+                  <%= link_to 'Appointments', appointments_path %>
                 </li>
                 <li>
-                  <a href="#">News</a>
-                  <ul>
-                    <li>
-                      <a href="blog_fullwidth.html">Fullwidth Listing</a>
-                    </li>
-                    <li>
-                      <a href="blog_with_right_sidebar.html">With Right Sidebar</a>
-                    </li>
-                    <li>
-                      <a href="blog_with_left_sidebar.html">With Left Sidebar</a>
-                    </li>
-                    <li>
-                      <a href="blog_post_right_sidebar.html">Blog post</a>
-                      <ul>
-                        <li>
-                          <a href="blog_post_fullwidth.html">Fullwidth</a>
-                        </li>
-                        <li>
-                          <a href="blog_post_right_sidebar.html">With Right Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog_post_left_sidebar.html">With Left Sidebar</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                  <%= link_to 'FAQ', homes_faq_path %>
                 </li>
                 <li>
-                  <a href="contacts.html">Contacts</a>
+                  <%= link_to 'Team', homes_team_path %>
+                </li>
+                <li>
+                  <%= link_to 'Gallery', homes_gallery_path %>
+                </li>
+                <li>
+                  <%= link_to 'Contacts', homes_contacts_path %>
                 </li>
               </ul>
             </div>
