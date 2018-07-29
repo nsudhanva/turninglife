@@ -23,6 +23,9 @@ default: &default
 development:
   <<: *default
   database: turninglife
+  username: postgres
+  password: sudhanvasud
+  host: localhost
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -34,6 +37,8 @@ development:
 test:
   <<: *default
   database: turninglife_test
+  username: postgres
+  password: sudhanvasud
 
 # production:
 #   <<: *default
@@ -43,4 +48,4 @@ production:
   <<: *default
   database: turninglife_production
   username: postgres
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+  password: <%= ENV['TURNINGLIFE_DATABASE_PASSWORD'] %>
