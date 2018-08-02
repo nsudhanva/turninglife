@@ -12,5 +12,21 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="Rails turninglife: test" uuid="8ccbafe3-d3ca-4473-b6f9-615a1a266d3f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/turninglife_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails turninglife: production" uuid="c875ae33-c7c6-4a2a-9689-99e9e3f51ae6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/turninglife_production</jdbc-url>
+    </data-source>
   </component>
 </project>
