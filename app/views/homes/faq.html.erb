@@ -95,17 +95,40 @@
 								</div>
 								<ul class="main-nav__list">
 									<li class="active">
-										<a href="index.html">Home</a>
-										<%# <%= link_to %>
+										<%# <a href="index.html">Home</a> %>
+										<%= link_to "Home", root_path %>
 									</li>
 									<li>
-										<a href="about_us.html">About</a>
+										<%# <a href="about_us.html">About</a> %>
+										<%= link_to "About", homes_about_path %>
 									</li>
 									<li>
-										<a href="services.html">Services</a>
+										<%# <a href="about_us.html">About</a> %>
+										<%= link_to "Counselling", homes_counselling_path %>
 									</li>
 									<li>
-										<a href="contacts.html">Contacts</a>
+										<%# <a href="about_us.html">About</a> %>
+										<%= link_to "Gallery", homes_gallery_url %>
+									</li>
+									<li>
+										<%# <a href="services.html">Services</a> %>
+										<%= link_to "Services", homes_services_path %>
+									</li>
+									<li>
+										<%# <a href="about_us.html">About</a> %>
+										<%= link_to "Team", homes_team_path %>
+									</li>
+									<li>
+										<%# <a href="about_us.html">About</a> %>
+										<%= link_to "About", homes_about_path %>
+									</li>	
+									<li>
+										<%# <a href="about_us.html">About</a> %>
+										<%= link_to "FAQ", homes_faq_path %>
+									</li>			
+									<li>
+										<%# <a href="contacts.html">Contacts</a> %>
+										<%= link_to "Contacts", homes_contacts_path %>
 									</li>
 								</ul>
 							</div>
