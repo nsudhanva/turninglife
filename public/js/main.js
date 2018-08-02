@@ -328,7 +328,7 @@
 				position: myLatlng,
 				map: map,
 				title: 'New York!',
-				icon: 'img/icons/map_icon.png'
+				// icon: 'img/icons/map_icon.png'
 			});
 		}
 
