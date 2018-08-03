@@ -37,8 +37,12 @@
 	<!-- Font Awesome 4.7.0 -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
-	<!-- Main style -->
-	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fullcalendar.min.css">
+
+  <link rel="stylesheet" media="print" href="css/fullcalendar.print.min.css">
+
+  <!-- Main style -->
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -83,7 +87,7 @@
 					</div>
 				</div>
 			</div>
-
+	 		
 			<!-- Main navigation -->
 			<div class="header-box-02">
 				<div class="container">
@@ -164,130 +168,134 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12">
-							<div class="appointment-box-wrapp">
-								<div class="appointment-box">
-									<div class="appointment-box__header">
-										<div class="app-box-01">
-											<a href="#" class="appointment-btn-prev">Prev</a>
-										</div>
-										<div class="app-box-01">
-											<p class="appointment-in">September 2017</p>
-										</div>
-										<div class="app-box-01">
-											<a href="#" class="appointment-btn-next">Next</a>
-										</div>
-									</div>
-									<table class="appointment-box__table">
-										<tr>
-											<th>Monday</th>
-											<th>Tuesday</th>
-											<th>Wednesday</th>
-											<th>Thuesday</th>
-											<th>Friday</th>
-											<th>Saturday</th>
-											<th>Sunday</th>
-										</tr>
-										<tr>
-											<td>28</td>
-											<td>29</td>
-											<td>30</td>
-											<td>31</td>
-											<td>1</td>
-											<td>2</td>
-											<td>3</td>
-										</tr>
-										<tr>
-											<td>4</td>
-											<td>5</td>
-											<td>6</td>
-											<td>7</td>
-											<td>8</td>
-											<td>9</td>
-											<td>10</td>
-										</tr>
-										<tr>
-											<td>11</td>
-											<td class="ap-01">
-												<span class="ap-01-cont__01">
-													12
-												</span>
-											</td>
-											<td class="ap-01">
-												<span class="ap-01-cont__02">
-													13
-													<span class="ap-tooltip">
-														<span class="ap-tooltip-text">6 Available</span>
-													</span>
-												</span>
-											</td>
-											<td class="ap-02">
-												<span class="ap-02-cont__01">14</span>
-											</td>
-											<td class="ap-03">15</td>
-											<td class="ap-03">16</td>
-											<td class="ap-03">17</td>
-										</tr>
-										<tr>
-											<td class="ap-04" colspan="7">
-												<span class="ap-04-title">Available Appoinment on
-													<strong>September 14, 2017</strong>
-												</span>
-												<div class="available-appoinment">
-													<div class="available-appoinment-row">
-														<div class="available-appoinment-box-01">
-															<span class="available-appoinment-time">8.00 AM - 10.00 AM</span>
-															<span class="available-appoinment-text">2 Spaces Available</span>
-														</div>
-														<div class="available-appoinment-box-02">
-															<a href="#signup" class="available-appoinment-btn">Book appointment</a>
-														</div>
-													</div>
-												</div>
-												<div class="available-appoinment">
-													<div class="available-appoinment-row">
-														<div class="available-appoinment-box-01">
-															<span class="available-appoinment-time">10.00 AM - 12.00 AM</span>
-															<span class="available-appoinment-text">2 Spaces Available</span>
-														</div>
-														<div class="available-appoinment-box-02">
-															<a href="#signup" class="available-appoinment-btn">Book appointment</a>
-														</div>
-													</div>
-												</div>
-												<div class="available-appoinment">
-													<div class="available-appoinment-row">
-														<div class="available-appoinment-box-01">
-															<span class="available-appoinment-time">2.00 PM - 4.00 PM</span>
-															<span class="available-appoinment-text">2 Spaces Available</span>
-														</div>
-														<div class="available-appoinment-box-02">
-															<a href="#signup" class="available-appoinment-btn">Book appointment</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="ap-03">18</td>
-											<td class="ap-03">19</td>
-											<td class="ap-03">20</td>
-											<td class="ap-03">21</td>
-											<td>22</td>
-											<td class="ap-03">23</td>
-											<td class="ap-03">24</td>
-										</tr>
-										<tr>
-											<td class="ap-03">25</td>
-											<td class="ap-03">26</td>
-											<td class="ap-03">27</td>
-											<td class="ap-03">28</td>
-											<td class="ap-03">29</td>
-											<td class="ap-03">30</td>
-											<td>1</td>
-										</tr>
-									</table>
-								</div>
-							</div>
+              <div id="appointment_cal">
+
+              </div>
+<!--							<div class="appointment-box-wrapp">-->
+<!--								<div class="appointment-box">-->
+<!--									<div class="appointment-box__header">-->
+<!--										<div class="app-box-01">-->
+<!--											<a href="#" class="appointment-btn-prev">Prev</a>-->
+<!--										</div>-->
+                    <%# @month = Date.today.strftime("%B") %>
+<!--										<div class="app-box-01">-->
+<!--											<p class="appointment-in"><%#= @month %><%#= " #{Time.current.year}" %></p>-->
+<!--										</div>-->
+<!--										<div class="app-box-01">-->
+<!--											<a href="#" class="appointment-btn-next">Next</a>-->
+<!--										</div>-->
+<!--									</div>-->
+<!--									<table class="appointment-box__table">-->
+<!--										<tr>-->
+<!--											<th>Monday</th>-->
+<!--											<th>Tuesday</th>-->
+<!--											<th>Wednesday</th>-->
+<!--											<th>Thuesday</th>-->
+<!--											<th>Friday</th>-->
+<!--											<th>Saturday</th>-->
+<!--											<th>Sunday</th>-->
+<!--										</tr>-->
+<!--										<tr>-->
+<!--											<td>28</td>-->
+<!--											<td>29</td>-->
+<!--											<td>30</td>-->
+<!--											<td>31</td>-->
+<!--											<td>1</td>-->
+<!--											<td>2</td>-->
+<!--											<td>3</td>-->
+<!--										</tr>-->
+<!--										<tr>-->
+<!--											<td>4</td>-->
+<!--											<td>5</td>-->
+<!--											<td>6</td>-->
+<!--											<td>7</td>-->
+<!--											<td>8</td>-->
+<!--											<td>9</td>-->
+<!--											<td>10</td>-->
+<!--										</tr>-->
+<!--										<tr>-->
+<!--											<td>11</td>-->
+<!--											<td class="ap-01">-->
+<!--												<span class="ap-01-cont__01">-->
+<!--													12-->
+<!--												</span>-->
+<!--											</td>-->
+<!--											<td class="ap-01">-->
+<!--												<span class="ap-01-cont__02">-->
+<!--													13-->
+<!--													<span class="ap-tooltip">-->
+<!--														<span class="ap-tooltip-text">6 Available</span>-->
+<!--													</span>-->
+<!--												</span>-->
+<!--											</td>-->
+<!--											<td class="ap-02">-->
+<!--												<span class="ap-02-cont__01">14</span>-->
+<!--											</td>-->
+<!--											<td class="ap-03">15</td>-->
+<!--											<td class="ap-03">16</td>-->
+<!--											<td class="ap-03">17</td>-->
+<!--										</tr>-->
+<!--										<tr>-->
+<!--											<td class="ap-04" colspan="7">-->
+<!--												<span class="ap-04-title">Available Appoinment on-->
+<!--													<strong>September 14, 2017</strong>-->
+<!--												</span>-->
+<!--												<div class="available-appoinment">-->
+<!--													<div class="available-appoinment-row">-->
+<!--														<div class="available-appoinment-box-01">-->
+<!--															<span class="available-appoinment-time">8.00 AM - 10.00 AM</span>-->
+<!--															<span class="available-appoinment-text">2 Spaces Available</span>-->
+<!--														</div>-->
+<!--														<div class="available-appoinment-box-02">-->
+<!--															<a href="#signup" class="available-appoinment-btn">Book appointment</a>-->
+<!--														</div>-->
+<!--													</div>-->
+<!--												</div>-->
+<!--												<div class="available-appoinment">-->
+<!--													<div class="available-appoinment-row">-->
+<!--														<div class="available-appoinment-box-01">-->
+<!--															<span class="available-appoinment-time">10.00 AM - 12.00 AM</span>-->
+<!--															<span class="available-appoinment-text">2 Spaces Available</span>-->
+<!--														</div>-->
+<!--														<div class="available-appoinment-box-02">-->
+<!--															<a href="#signup" class="available-appoinment-btn">Book appointment</a>-->
+<!--														</div>-->
+<!--													</div>-->
+<!--												</div>-->
+<!--												<div class="available-appoinment">-->
+<!--													<div class="available-appoinment-row">-->
+<!--														<div class="available-appoinment-box-01">-->
+<!--															<span class="available-appoinment-time">2.00 PM - 4.00 PM</span>-->
+<!--															<span class="available-appoinment-text">2 Spaces Available</span>-->
+<!--														</div>-->
+<!--														<div class="available-appoinment-box-02">-->
+<!--															<a href="#signup" class="available-appoinment-btn">Book appointment</a>-->
+<!--														</div>-->
+<!--													</div>-->
+<!--												</div>-->
+<!--											</td>-->
+<!--										</tr>-->
+<!--										<tr>-->
+<!--											<td class="ap-03">18</td>-->
+<!--											<td class="ap-03">19</td>-->
+<!--											<td class="ap-03">20</td>-->
+<!--											<td class="ap-03">21</td>-->
+<!--											<td>22</td>-->
+<!--											<td class="ap-03">23</td>-->
+<!--											<td class="ap-03">24</td>-->
+<!--										</tr>-->
+<!--										<tr>-->
+<!--											<td class="ap-03">25</td>-->
+<!--											<td class="ap-03">26</td>-->
+<!--											<td class="ap-03">27</td>-->
+<!--											<td class="ap-03">28</td>-->
+<!--											<td class="ap-03">29</td>-->
+<!--											<td class="ap-03">30</td>-->
+<!--											<td>1</td>-->
+<!--										</tr>-->
+<!--									</table>-->
+<!--								</div>-->
+<!--							</div>-->
 						</div>
 					</div>
 				</div>
@@ -467,6 +475,26 @@
 
 	<!-- Main script -->
 	<script src="js/main.js"></script>
+
+  <script src="js/moment.min.js"></script>
+
+  <script src="js/fullcalendar.min.js"></script>
+
+  <script type="text/javascript" charset="utf-8">
+      $(function() {
+
+          // page is now ready, initialize the calendar...
+
+          $('#appointment_cal').fullCalendar({
+              header: {
+                  left: 'prev,next today',
+                  center: 'title',
+                  right: 'month,agendaWeek,agendaDay'
+              }
+          });
+
+      });
+  </script>
 
 </body>
 
