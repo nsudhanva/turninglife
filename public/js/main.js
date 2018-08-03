@@ -423,7 +423,7 @@
 		// Appoinment popup:
 		if ($('.appointment-box-wrapp').size() > 0) {
 			$('.available-appoinment-btn').leanModal({ 
-				top : 200, 
+				top : 50,
 				closeButton: '.appointment-popup-close' 
 			});
 		};

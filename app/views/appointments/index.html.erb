@@ -168,7 +168,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12">
-              <div id="appointment_cal">
+              <a href="#signup" class="available-appoinment-btn">Book appointment</a>
+              <div id="appointment_cal" class="appointment-box-wrapp">
 
               </div>
 <!--							<div class="appointment-box-wrapp">-->
@@ -299,7 +300,7 @@
 						</div>
 					</div>
 				</div>
-				<div id="signup" class="appointment-popup">
+				<div id="signup" class="appointment-popup" style="top: 5%">
 					<div class="appointment-popup__header">
 						<p class="appointment-popup-title">Request an
 							<span>Appoinment</span>
@@ -474,25 +475,52 @@
 	<script src="js/plugins/jquery.superfish.min.js"></script>
 
 	<!-- Main script -->
-	<script src="js/main.js"></script>
 
   <script src="js/moment.min.js"></script>
 
   <script src="js/fullcalendar.min.js"></script>
+
+  <script src="js/main.js"></script>
 
   <script type="text/javascript" charset="utf-8">
       $(function() {
 
           // page is now ready, initialize the calendar...
 
+          var today = new Date();
+          var dd = today.getDate();
+          var mm = today.getMonth()+1; //January is 0!
+          var yyyy = today.getFullYear();
+
+          if(dd<10) {
+              dd = '0'+dd
+          }
+
+          if(mm<10) {
+              mm = '0'+mm
+          }
+
+          today = yyyy + '-' + mm + '-' + 'dd';
+
           $('#appointment_cal').fullCalendar({
               header: {
                   left: 'prev,next today',
                   center: 'title',
                   right: 'month,agendaWeek,agendaDay'
+              },
+
+              dayClick: function(date, jsEvent, view) {
+                  console.log(date.format());
+                  clickedDate = date.format();
+              },
+
+              dayRender: function (date, cell) {
+
               }
+
           });
 
+          $("signup").css("top", "5%");
       });
   </script>
 
