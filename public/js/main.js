@@ -420,9 +420,9 @@
 			});
 		};
 		
-		// Appoinment popup:
+		// appointment popup:
 		if ($('.appointment-box-wrapp').size() > 0) {
-			$('.available-appoinment-btn').leanModal({ 
+			$('.available-appointment-btn').leanModal({ 
 				top : 50,
 				closeButton: '.appointment-popup-close' 
 			});

@@ -11216,50 +11216,50 @@ ol li::before {
 	margin-bottom: 40px;
 }
 
-.available-appoinment {
+.available-appointment {
 	max-width: 970px;
 	display: inline-block;
 	vertical-align: middle;
 	width: 100%;
 }
 
-.available-appoinment:last-child .available-appoinment-row {
+.available-appointment:last-child .available-appointment-row {
 	border-bottom: none;
 }
 
-.available-appoinment-row {
+.available-appointment-row {
 	padding: 18px 20px 21px;
 	-webkit-transition: 0.5s all;
 	transition: 0.5s all;
 	border-bottom: 1px solid #d9e0e4;
 }
 
-.available-appoinment-row::after {
+.available-appointment-row::after {
 	content: '';
 	display: table;
 	clear: both;
 }
 
-.available-appoinment-row:hover {
+.available-appointment-row:hover {
 	background-color: #fff;
 	-webkit-transition: 0.5s all;
 	transition: 0.5s all;
 }
 
-.available-appoinment-box-01 {
+.available-appointment-box-01 {
 	width: 50%;
 	float: left;
 	text-align: left;
 	padding-top: 2px;
 }
 
-.available-appoinment-box-02 {
+.available-appointment-box-02 {
 	width: 50%;
 	float: left;
 	text-align: right;
 }
 
-.available-appoinment-time {
+.available-appointment-time {
 	font-size: 14px;
 	line-height: 16px;
 	color: #42474c;
@@ -11270,7 +11270,7 @@ ol li::before {
 	margin-bottom: 5px;
 }
 
-.available-appoinment-time::before {
+.available-appointment-time::before {
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
@@ -11282,7 +11282,7 @@ ol li::before {
 	height: 14px;
 }
 
-.available-appoinment-text {
+.available-appointment-text {
 	font-size: 12px;
 	line-height: 14px;
 	color: #5c656d;
@@ -11291,7 +11291,7 @@ ol li::before {
 	padding-left: 22px;
 }
 
-.available-appoinment-btn {
+.available-appointment-btn {
 	font-size: 11px;
 	line-height: 13px;
 	text-transform: uppercase;
@@ -11305,17 +11305,17 @@ ol li::before {
 	letter-spacing: 0.5px;
 }
 
-.available-appoinment-btn:focus {
+.available-appointment-btn:focus {
 	background-color: #3d3272;
 	color: #fff;
 }
 
-.available-appoinment-btn:active {
+.available-appointment-btn:active {
 	background-color: #3d3272;
 	color: #fff;
 }
 
-.available-appoinment-btn:hover {
+.available-appointment-btn:hover {
 	background-color: #3d3272;
 	color: #fff;
 }
